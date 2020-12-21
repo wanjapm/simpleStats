@@ -118,7 +118,7 @@ counts[-10:]
 ratingsPerProduct = defaultdict(list)
 
 
-# In[34]:
+# In[34]: What is the average rating for each product?
 
 
 for d in dataset:
@@ -133,8 +133,9 @@ for p in ratingsPerProduct:
     averageRatingsPerProduct[p] = sum(ratingsPerProduct[p]) / len(ratingsPerProduct[p])
 
 
-# In[36]:
-
+# In[36]: What are the top rated products?
+# we would like to get reasonably popular products i.e. where number of product reviews > 50
+# if a product has one rating only and the rating is 5 it will be highly rated yet only one review
 
 topRated  = [(averageRatingsPerProduct[p],p) for p in averageRatingsPerProduct if len(ratingsPerProduct[p]) > 50 ]
 
