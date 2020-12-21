@@ -147,7 +147,7 @@ topRated.sort()
 topRated[-10:]
 
 
-# In[58]:
+# In[58]: Who are the most active users?
 
 
 # Most active users

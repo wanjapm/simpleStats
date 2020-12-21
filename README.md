@@ -7,7 +7,7 @@ Extract simple statistics
 * What fraction of purchases are verified?
 * Which products are the most popular (purchases)?
 * Which products have the highest average ratings?
-* Who are the most acive users?
+* Who are the most active users?
 * Most commonly used words in the reviews?
 * What is the difference in average rating between verified and non-verified purchases?
 
